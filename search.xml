@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>屠龙术</title>
+    <url>/2023/12/05/dragon-slaying/</url>
+    <content><![CDATA[<p>整理旧物找出的屠龙术。</p>
+<span id="more"></span>
+
+<p>整理旧物找出来《钢结构的平面内稳定》以及《结构动力学》笔记（作者不是我）。结合秦博士说有新生被分到打灰专业后，情愿退学，也不学打灰专业，就想到了这个标题。</p>
+<p>研究生毕业的时候，觉得这东西可能还是有用的，但是现在看来，只是屠龙术。随着基建的退潮（很可能是大退潮），这些东西更加没有用武之地。扫描一下，原稿丢入碎纸机，有些可惜，但是正确。</p>
+<p>下面是这两个课程的笔记前几页。</p>
+<h2 id="《钢结构的平面内稳定》"><a href="#《钢结构的平面内稳定》" class="headerlink" title="《钢结构的平面内稳定》"></a>《钢结构的平面内稳定》</h2><p><img src="/2023/12/05/dragon-slaying/steel_1.webp" alt="钢结构的平面内稳定"><br><img src="/2023/12/05/dragon-slaying/steel_2.webp" alt="钢结构的平面内稳定"><br><img src="/2023/12/05/dragon-slaying/steel_3.webp" alt="钢结构的平面内稳定"><br><img src="/2023/12/05/dragon-slaying/steel_4.webp" alt="钢结构的平面内稳定"></p>
+<h2 id="《结构动力学》"><a href="#《结构动力学》" class="headerlink" title="《结构动力学》"></a>《结构动力学》</h2><p><img src="/2023/12/05/dragon-slaying/dynamics_1.webp" alt="结构动力学"><br><img src="/2023/12/05/dragon-slaying/dynamics_2.webp" alt="结构动力学"><br><img src="/2023/12/05/dragon-slaying/dynamics_3.webp" alt="结构动力学"><br><img src="/2023/12/05/dragon-slaying/dynamics_4.webp" alt="结构动力学"></p>
+]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2023/10/27/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>纳斯达克ETF的费用陷阱</title>
+    <url>/2023/12/11/nasdaq-etf-fee-trap/</url>
+    <content><![CDATA[<p><img src="/2023/12/11/nasdaq-etf-fee-trap/chive.gif"><br>隐蔽的镰刀？</p>
+<span id="more"></span>
+
+
+
+<p>出于对大A的失望，最近很多人都转投国外市场相关标的，其中对标纳斯达克的ETF是最受欢迎的，没有之一。纳斯达克的ETF有很多，但是这里面有一个陷阱，就是基金费用。</p>
+<p>根据我肤浅的研究（截止于本文创建时间），目前规模最大的是<a href="http://fund.eastmoney.com/159941.html">广发纳斯达克100ETF(159941)</a> ，截止2023年9月30日，规模为157.21亿元。成立也不是最早的，如<a href="http://fund.eastmoney.com/513100.html">国泰纳斯达克100ETF(513100)</a>就比他早。</p>
+<p>注意，重点来了，这个基金的费用明显较高，管理费率为0.8%，托管费率为0.25%，对比<a href="http://fund.eastmoney.com/513100.html">国泰纳斯达克100ETF(513100)</a>的管理费率0.6%，托管费率0.2%，高出约31%。</p>
+<p>被动ETF的费用就不用我说了吧。跟踪指数的收益一定（在假定跟踪误差水平一致的情况下），费用越高意味着<strong>实际收益</strong>越低。</p>
+<p>2023年新发行的纳斯达克ETF很多已经降低了费用，比如<a href="http://fund.eastmoney.com/159501.html">嘉实纳斯达克100ETF(QDII)(159501) </a> ，管理费率为0.5%，托管费率为0.15%。费用较之前的产品更低了，只是此类产品规模较小，尚不及10亿元，流动性差些。但是因为由于费用低，所以在长期投资的角度来看，这个产品的流动性和规模都会逐渐变好。</p>
+<p>特别地，<a href="http://fund.eastmoney.com/159513.html">大成纳斯达克100ETF(QDII)(159513)</a> ，管理费率为0.8%，托管费率为0.25%，成立于2023年7月12日，纯属是脸都不要了。</p>
+<p>对比美股市场相关标的的费用，<a href="https://finance.yahoo.com/quote/QQQ/">纳斯达克100ETF(QQQ)</a>的费用为0.2%，<a href="https://finance.yahoo.com/quote/SPY/">标普500ETF(SPY)</a>的费用约为0.09%。感觉费用还有一定的下降空间。</p>
+]]></content>
+      <categories>
+        <category>Trade</category>
+      </categories>
+      <tags>
+        <tag>随笔</tag>
+        <tag>Trade</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>午间随笔</title>
+    <url>/2023/11/08/noon-rest-thought/</url>
+    <content><![CDATA[<p>午间随笔，开始于午间，但并不必完成于午间。</p>
+<p>可能主要记录<del>工作日</del>午间的思考</p>
+<span id="more"></span>
+
+<h2 id="2024-01-08"><a href="#2024-01-08" class="headerlink" title="2024-01-08"></a>2024-01-08</h2><p>大A继续崩盘。Wind今天直接崩溃了一天。“开猿节流，降本增效”在网络上广为流传。</p>
+<h2 id="2024-01-07"><a href="#2024-01-07" class="headerlink" title="2024-01-07"></a>2024-01-07</h2><p>刷微博刷到了影视飓风的相关资料，文中推荐了“iPhone15评测”和“我的创业故事2.0”这两个视频。看了下，整体感觉很不错。但是最重要的是，他的公司团队已经是108人（可能不止），按照我的估计，每月的工资流水少说也得是一百大几十万，这个规模的公司已经算不小的规模了。</p>
+<p>另一个感觉是这些视频的质量，哪怕是拉到Youtube上，也很能打。不过考虑到创始人是在英国学的电影专业，所以这一点也不奇怪了。商业模式清晰，组织架构上还有来自他老爸，一名职业经理人的帮助，所以整体上看，这个公司的发展还是很有希望的。</p>
+<p>不过有一个有意思的发现，就是茅台的视频，里面都是在刷“一级致癌物”、“酱香科技美国永远无法掌握”等诸如此类的弹幕，从另一个侧面反映出年轻人对所谓的“酒文化”的反感。客观来说，在实际的职场上，年轻人普遍无法摆脱“酒文化”，甚至想要喝上茅台的“酒文化”，绝大部分情况下也是一种奢望。考虑到政府强监管、国有企业占优势地位的经济现状，叠加新一代新的年轻人创业公司在数量上、地位上、质量上的进一步下滑，可能酒文化的出清只能随着出生率的出清而出清了（酒企的业绩销量则是另一个问题，经济范畴的下滑可能更严重，而非文化所致）。</p>
+<h2 id="2024-01-05"><a href="#2024-01-05" class="headerlink" title="2024-01-05"></a>2024-01-05</h2><p><a href="https://www.404media.co/download-the-jeffrey-epstein-documents/">Epstein 文件</a>今日放出，还有对应的<a href="https://collie.ai/epstein2024">AI问答机器人</a>。</p>
+<p>大A在2024年前4个交易日全部下跌。各个群里一片骂声。</p>
+<p>在推上读到这样一条推文:</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">听到一件让我很感慨的真人真事。</span><br><span class="line">一名瑞典男子在餐厅当厨师很多年，餐饮业从业人员越来越年轻，四十岁的他觉得跟不上形势，就辞职去学习远洋驾驶。学了三年，干了七年，现在是一艘远洋轮的船长了。</span><br><span class="line">厨师和船长，俩职业都是他自己选的，第一次选时二十岁，第二次选时四十岁。两次上的都是顶流的职业技术学院，学费全免。</span><br><span class="line">我非常非常羡慕在这种高阶文明里普通人有连续自主选择并进阶丰富职业履历、实现人生价值的可能性。</span><br><span class="line">这是终极的自由。</span><br><span class="line">补记：大厨船长说他跟不上餐饮的形势我认为是很婉约的说法，实际意思是他不再喜欢干这行了，因为“新来的都特别傻逼，见到一整只鸡竟然吓哭了，说只弄过处理好的鸡胸鸡腿肉”；</span><br><span class="line">另外，“食客也越来越傻逼，这个不吃不环保，那个不吃有过敏，太几把难伺候”。</span><br><span class="line">- @reanfanzi</span><br></pre></td></tr></table></figure>
+
+<p>羡慕啊，羡慕。总结：“就是不需要很聪明、很有钱、有背景、很努力，普通人也可以过体面的一生。” by 花姐</p>
+<p>还有一篇文章，<a href="https://mp.weixin.qq.com/s/J-yg9pfSnpz7w7wFYCQMow">《我在芬兰3年不上班》</a>。</p>
+<h2 id="2024-01-02"><a href="#2024-01-02" class="headerlink" title="2024-01-02"></a>2024-01-02</h2><p>到店优惠券可以加油用，还不跟店家的优惠相冲突。这箱油单价达到了6.03元&#x2F;升，当前价格是7.56元&#x2F;升。</p>
+<h2 id="2024-01-01"><a href="#2024-01-01" class="headerlink" title="2024-01-01"></a>2024-01-01</h2><p>一个观察，不一定对：当我去读新东方的某个老师开始将某个产业上升为国家实力、运程的标志或者象征时，这个产业就迎来了拐点(可能转折点还要一两年)，比如高铁(代表的基建)、光伏还有现在鼓吹的新能源车。</p>
+<p>动物园见闻：大型猫科动物的特点是懒，整天睡大觉。还不如熊。</p>
+<p>2023年支出同学评价：你一年到头还没买什么自己的东西。</p>
+<h2 id="2023-12-30"><a href="#2023-12-30" class="headerlink" title="2023-12-30"></a>2023-12-30</h2><p>商场单价（餐饮、服装）提升不少，餐饮客流似乎变少。</p>
+<p>国产新势力似乎都喜欢搞高价车，是不是想放弃国内15-30这个区间的市场？但是这个市场才是走量和产生大额利润的？</p>
+<h2 id="2023-12-27"><a href="#2023-12-27" class="headerlink" title="2023-12-27"></a>2023-12-27</h2><p>Yann LeCun 的推特转发的，2023年的 <a href="https://futurecrunch.com/goodnews2023/">Good news</a>。</p>
+<p>吴悦风的本年度回撤接近40%，目前净值大概是0.9，微博下面都是喷的。之前净值上涨的时候天天在微博“哈哈哈哈哈”，不少人买入，估计亏损20%以上的不是少数。是不是考虑了 2 and 20 后，亏得更多？</p>
+<h2 id="2023-12-26"><a href="#2023-12-26" class="headerlink" title="2023-12-26"></a>2023-12-26</h2><p>圣诞节美国交易所休市，A股不休市，理论上来说，纳指相关的ETF在今天应该是不会有什么价格波动的。但是，今天的纳指ETF几个标的都大概上涨了0.3%-0.4%，溢价率进一步扩大，是不是说明很多人深套割肉，抛弃了大A？</p>
+<h2 id="2023-12-25"><a href="#2023-12-25" class="headerlink" title="2023-12-25"></a>2023-12-25</h2><p>休个年假都一堆人来找你，真是操蛋。</p>
+<p>Shut up and wait.</p>
+<p><img src="/2023/11/08/noon-rest-thought/shut_up_and_wait.webp" alt="shut_up_and_wait"></p>
+<h2 id="2023-12-24"><a href="#2023-12-24" class="headerlink" title="2023-12-24"></a>2023-12-24</h2><p>“放弃违规谏言，尊重处长意见” ———— 回应A4二向箔引起市场恐慌，网友的评论。</p>
+<p>房地产市场风声鹤唳，FT有一篇文章说北京的也撑不住了。标题：Sliding Beijing home prices spur alarm in China&apos;s property sector</p>
+<p>Cyberpunk 2077 Phantom Liberty 的主角之一，宋昭美，外号百灵鸟，英文名 So Mi，外号 Songbird，是韩国人&#x2F;韩裔？</p>
+<h2 id="2023-12-22"><a href="#2023-12-22" class="headerlink" title="2023-12-22"></a>2023-12-22</h2><p>晚间注：</p>
+<p>上午11时许，关于游戏的一篇A4二向箔，把港股、A股的游戏股全部搞得大跌。然后网上开始了言语上的狂欢。</p>
+<p>没持有游戏股的也受到了消息影响，跌。</p>
+<p>今天4点多就开始塞车了，冬至好多人提前下班。</p>
+<p>这边冬至不吃饺子，吃羊肉、糯米饭、汤圆。</p>
+<h2 id="2023-12-21"><a href="#2023-12-21" class="headerlink" title="2023-12-21"></a>2023-12-21</h2><p>彭博社<a href="https://t.co/Mc6btW9wvD">这篇文章</a>展示了2023年中国中产的另一面。</p>
+<p>感觉可以水一篇全球生育率文章。</p>
+<h2 id="2023-12-20"><a href="#2023-12-20" class="headerlink" title="2023-12-20"></a>2023-12-20</h2><p>秦博士revised：“欲振兴经济，必先发文件，再发文件，又发文件，复发文件，重发文件，更发文件，终不许发K线。”</p>
+<h2 id="2023-12-19"><a href="#2023-12-19" class="headerlink" title="2023-12-19"></a>2023-12-19</h2><p>名言留存：“工欲善其事，必先利其器，再利其器，又利其器，复利其器，重利其器，更利其器，终忘其事。”</p>
+<p>V2老哥那有个长期下单十元咖啡的号，说是长期带下，结果今天加微信软件之后第一次试图下单，说不行了。啊这。</p>
+<h2 id="2023-12-18"><a href="#2023-12-18" class="headerlink" title="2023-12-18"></a>2023-12-18</h2><p>笔记本是个好东西，纸质书写的感觉，无可替代。但是，好像没有一种笔记本是面向数字化存档的。哪种笔记本可以写完之后，直接扫描成PDF呢？或者是我已经写完的笔记本，如何方便快捷地扫描成PDF呢？</p>
+<p>主要是旧的笔记本太多了，里面的内容也不是很重要，但是又不想丢弃，所以想要扫描成PDF，然后丢弃掉本子。</p>
+<h2 id="2023-12-17"><a href="#2023-12-17" class="headerlink" title="2023-12-17"></a>2023-12-17</h2><p>花了2天时间看了 Cyberpunk 2077 Phantom Liberty 的剧情，觉得不错，堪比制作精良的电视剧。</p>
+<h2 id="2023-12-15"><a href="#2023-12-15" class="headerlink" title="2023-12-15"></a>2023-12-15</h2><p>房贷在几年前，属于“普通人这辈子能获得的最便宜的长期贷款”，今天变成了“特定税”、“银行的优质资产”、“隐性税务”、“既得利益”。只能说是时运变迁。</p>
+<h2 id="2023-12-11"><a href="#2023-12-11" class="headerlink" title="2023-12-11"></a>2023-12-11</h2><p>大A又崩了，被波及到了4个点的跌幅。惨。</p>
+<p>周末看到的“利他名义”。<br><img src="/2023/11/08/noon-rest-thought/altruism.webp" alt="Altruism"></p>
+<h2 id="2023-12-08"><a href="#2023-12-08" class="headerlink" title="2023-12-08"></a>2023-12-08</h2><p>“共识”</p>
+<p><img src="/2023/11/08/noon-rest-thought/common_sense.webp" alt="common sense"></p>
+<h2 id="2023-12-05"><a href="#2023-12-05" class="headerlink" title="2023-12-05"></a>2023-12-05</h2><p>大A的3000点保卫战又又又又打响了。大A掌握了下跌的定价权。大A天天失守，骗局天天新高。</p>
+<p>It&apos;s cheap for a reason.<br>（20231219-注）秦博士说原来用“’”这个会变成全角的引号，对于强迫症不能忍，所以改成了<code>&amp;apos;</code>，转义之后，就是正常的英文所有格符号了。Bloomberg的网站上，文章内如果有所有格符号，复制出来也会变成全角的引号，原因还是所有格这个ASCII字符，字体里面不一定有，并且好多英文网站如Bloomberg不区分所有格符号和单引号（大概率他们也没搞清楚所有格符号、左右侧引号区别的问题），字符集不完整加上本身的ASCII码不对，所以就会出现英文所有格符号变成中文引号的情况。</p>
+<h2 id="2023-12-02"><a href="#2023-12-02" class="headerlink" title="2023-12-02"></a>2023-12-02</h2><p>Coherent Risk Measure 撸完了 alpha 版本。准备测试。</p>
+<h2 id="2023-11-29"><a href="#2023-11-29" class="headerlink" title="2023-11-29"></a>2023-11-29</h2><p>We are linear animals. We think in linear terms.</p>
+<p>上次说的OSS继续测试</p>
+<p><video controls><source src="https://mcbbs-1252347920.cos.ap-guangzhou.myqcloud.com/public/resource/b97dfd68-b4cd-42ea-accc-8d6bcc51cecf.jpg" type="video/mp4"> </video></p>
+<h2 id="2023-11-17"><a href="#2023-11-17" class="headerlink" title="2023-11-17"></a>2023-11-17</h2><p><img src="/2023/11/08/noon-rest-thought/less_talking.webp" alt="test"></p>
+<h2 id="2023-11-16"><a href="#2023-11-16" class="headerlink" title="2023-11-16"></a>2023-11-16</h2><p>晚上发现，视频已被删除。<br>原有内容: <del>以上是一个网盘，不知道是怎么实现的，但是是一个可以白嫖的OSS储存，可以存储的单个文件空间很大，时间限制未知。</del><br>错误如下</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;Error&gt;</span><br><span class="line">&lt;Code&gt;AccessDenied&lt;/Code&gt;</span><br><span class="line">&lt;Message&gt;You are denied by bucket referer policy.&lt;/Message&gt;</span><br><span class="line">&lt;RequestId&gt;65563F599B53B23031EB3C31&lt;/RequestId&gt;</span><br><span class="line">&lt;HostId&gt;csdn-video-community.oss-cn-beijing.aliyuncs.com&lt;/HostId&gt;</span><br><span class="line">&lt;BucketName&gt;csdn-video-community&lt;/BucketName&gt;</span><br><span class="line">&lt;EC&gt;0003-00000501&lt;/EC&gt;</span><br><span class="line">&lt;RecommendDoc&gt;https://api.aliyun.com/troubleshoot?q=0003-00000501&lt;/RecommendDoc&gt;</span><br><span class="line">&lt;/Error&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="2023-11-14"><a href="#2023-11-14" class="headerlink" title="2023-11-14"></a>2023-11-14</h2><p>这篇<a href="https://t.co/Tz7C6aPu8r">文章</a>引用的CBB的说法，真的不留情面。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">China is far larger, more militarily focused and geopolitically ambitious, although Japan hints at China’s possible trajectory, said Leland Miller, chief executive of China Beige Book, an economic consultancy.</span><br><span class="line"></span><br><span class="line">“But I don’t think China’s going to be lucky enough to be Japan,” he said. “Japan got rich before it got old. China’s not going to.”</span><br></pre></td></tr></table></figure>
+
+<p>我估计着现在的情况是，大家越卷，作为一个整体的生产效率越低。</p>
+<h2 id="2023-11-10"><a href="#2023-11-10" class="headerlink" title="2023-11-10"></a>2023-11-10</h2><p>GSZQ 的 Ptrade 客户端，Python SQLite的bug从9月份开始提，到现在也没修好，严重影响我的记录。网传miniqmt又触及了监管红线，并准备把原有的免费行情功能收费，这下都不知道怎么比较好。</p>
+<h2 id="2023-11-09"><a href="#2023-11-09" class="headerlink" title="2023-11-09"></a>2023-11-09</h2><p>网上看到 Evan You 转发了一个推，改推引用了 TUIC 作者的文章 <a href="https://www.eaimty.com/2023/opensource-project-based-on-hormone/">https://www.eaimty.com/2023/opensource-project-based-on-hormone/</a></p>
+<p>这个是转发的评论：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Vue 的国际社区一直都是各大框架里公认氛围最好的之一，不用 Vue 的人对 Vue 大多也保持尊重。</span><br><span class="line">不知为什么只有在简中互联网上常见带着鄙视的论调，甚至有不少对我个人带着恶意的评论，更不用提中国公司对 Vue 那可怜的捐赠占比…</span><br><span class="line">这也是为什么我越来越懒得对国内宣传我做的事情，让墙做一个筛选器吧 </span><br><span class="line">- 尤雨溪 (@yuxiyou) </span><br></pre></td></tr></table></figure>
+
+<p>这个是推特原文：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">「现在的互联网，特别是简体中文网络上，</span><br><span class="line">人们连最基本的心平气和、温文尔雅的交流都做不到，</span><br><span class="line">更不要说换位思考的能力了。」</span><br><span class="line">「我希望以“提高门槛”的方式来减少这些问题的发生。</span><br><span class="line">项目文档用英文书写，配置尽可能暴露底层技术细节，</span><br><span class="line">这些都是为了避免让那些层次不足的人接触到这个项目。」</span><br><span class="line">「我还是将大众想得太善良了。中国人的本性就是喜欢看别人的悲剧，</span><br><span class="line">除非火烧到自己，否则根本不会有觉悟。</span><br><span class="line">我觉得我不值得将自己的任何精力贡献给这样的群体，</span><br><span class="line">更何况我的人身安全也受到威胁。」</span><br><span class="line">每一句都沉默得震耳欲聋。</span><br><span class="line">- Shuhari (@NSShuhari) </span><br></pre></td></tr></table></figure>
+
+<p>一时语塞，不知道该说什么。</p>
+<h2 id="2023-11-08"><a href="#2023-11-08" class="headerlink" title="2023-11-08"></a>2023-11-08</h2><p>这篇<a href="https://pkmer.cn/Pkmer-Docs/02-%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E5%9F%BA%E7%A1%80/para%E4%BF%A1%E6%81%AF%E7%BB%84%E7%BB%87%E6%B3%95/os%E7%9A%84%E6%96%87%E4%BB%B6%E7%AE%80%E6%98%93%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83/">OS 的简易命名规范</a> 讲述了一个文件名命名的办法，可以学习一下。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">对象命名词（或加编号）+ 文件命名词 + 作者 + 版本号 + 日期 .扩展名</span><br></pre></td></tr></table></figure>
+
+<p>根据秦博士的说法，其实前面的一堆，可以变成文件夹的名字，其实还是最原始的按目录归集。配合上 <code>Everything</code> 的路径匹配模式，效果其实是一样的。</p>
+<p>所以最终的文件名，其实就是越长越好，加上<code>-</code>、<code>.</code>、<code>_</code> 这些分隔符，就可以了。还有一个是加上 <code>@</code> 作为关联人员的标识，加上 <code>#</code> 作为关联属性的标识。这两个和网络上的标签一致。</p>
+]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>A Real Hello World</title>
+    <url>/2023/10/28/real-hello-world/</url>
+    <content><![CDATA[<p>那个是假的 Hello World, 这个才是真的。</p>
+<span id="more"></span>
+
+<h2 id="1-什么是-Hexo"><a href="#1-什么是-Hexo" class="headerlink" title="1. 什么是 Hexo"></a>1. 什么是 Hexo</h2><p>据观察，Hexo 是一个全是老中在用的静态博客框架。比较多人用的主题里，甚至有直接填网站备案号的选项，看着都非常<del>亲切</del>。</p>
+<h2 id="2-为什么要用-Hexo"><a href="#2-为什么要用-Hexo" class="headerlink" title="2. 为什么要用 Hexo"></a>2. 为什么要用 Hexo</h2><p>其实我本来想用 Vitepress。 根据 <a href="https://mp.weixin.qq.com/s/R8lmyQj0zwXxYr5ydlRbPw">这篇文章</a> Vitepress 好看又简洁，但一来这个什么鬼Vue3我不会，二来看到配置一个博客的界面要搞这么多东西，我也不想学。</p>
+<p>然后我又对比了一下 Hexo 和 Hugo，明显 Hugo 的使用人群更加国际化，但是一看文档，上来就让你安装 Go、Dart Sass, 好像自定义主题还要用到 Node.js，我就不想用了。哪有 Node.js 一把梭好。我都把博客放在 GitHub Page 上了，你这一点点编译加载时间的优化在国内的网络下，不是开玩笑吗。（中途还去注册了个Vercel号，最后闲置了）</p>
+<h2 id="3-中间的转折"><a href="#3-中间的转折" class="headerlink" title="3. 中间的转折"></a>3. 中间的转折</h2><p>挑主题，好吧，我本来想用 <a href="https://github.com/bill-xia/hexo-theme-mashiro">mashiro</a>，看了半晚上发现文档不是很全，算了。然后是<a href="https://github.com/next-theme/hexo-theme-next">NexT</a>，看文档看到巨晚，一条一条看这个配置文件，终于大概懂了hexo主题中的套路。一不小心，中间看到了 <a href="https://github.com/fluid-dev/hexo-theme-fluid">Fluid</a>，然后就去捣鼓，甚至连配置文件，背景图片都下载好了，还配好了字体和favicon， 最后发现算了，还是不要搞那么多花里胡哨的东西。不如就直接Next吧，烂大街的东西用着也不会错。</p>
+<h2 id="4-为什么要用-GitHub-Page"><a href="#4-为什么要用-GitHub-Page" class="headerlink" title="4. 为什么要用 GitHub Page"></a>4. 为什么要用 GitHub Page</h2><p>因为我不想花钱维护域名，或者说没找到合适的长期持有的域名（手头只有年抛产品）。</p>
+<h2 id="5-还是得集成-Github-Action"><a href="#5-还是得集成-Github-Action" class="headerlink" title="5. 还是得集成 Github Action"></a>5. 还是得集成 Github Action</h2><p>主要是要出差，不想要出差的公用的电脑上部署 git 之类。</p>
+<h2 id="6-换了个字体，加了个AddToAny"><a href="#6-换了个字体，加了个AddToAny" class="headerlink" title="6. 换了个字体，加了个AddToAny"></a>6. 换了个字体，加了个AddToAny</h2><p>字体用了 <a href="https://github.com/lxgw/LxgwWenKai">霞鹜文楷</a>， 网页版在 <a href="https://github.com/chawyehsu/lxgw-wenkai-webfont">这里</a>。主要做法是在<code>themes/next/layout/_layout.swig</code>文件，在 <code>head</code> 中插入字体的CSS文件链接。具体可以参考<a href="https://jiapan.me/2022/modify-blog-font/">这篇文章</a>和<a href="https://www.luojiego.com/2022/12/23/my-font-settings/">这篇文章</a>。如果用的是Fluid，还可以参考<a href="https://developer.aliyun.com/article/1276943">这篇文章</a>。不过，字体设置直接在配置文件里面搞就好了，最后改了<code>_layout.swig</code>文件，不如<a href="https://www.roosephu.net/2023/01/08/theme-update/">这个</a>优雅。<code>AddToAny</code> 本来想着拿来分享的，好像没什么用。不过，还是留着吧，大概就是网页最后有个文字为Share的链接。增加的内容这里保存下。</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- AddToAny BEGIN --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">&quot;a2a_dd&quot;</span> <span class="attr">href</span>=<span class="string">&quot;https://www.addtoany.com/share&quot;</span>&gt;</span>Share<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">async</span> <span class="attr">src</span>=<span class="string">&quot;https://static.addtoany.com/menu/page.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- AddToAny END --&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="7-改主题就有了巨坑"><a href="#7-改主题就有了巨坑" class="headerlink" title="7. 改主题就有了巨坑"></a>7. 改主题就有了巨坑</h2><h3 id="1-开始"><a href="#1-开始" class="headerlink" title="1. 开始"></a>1. 开始</h3><p>启动文件夹，写配置，加载插件。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo init</span><br><span class="line">git <span class="built_in">clone</span> https://github.com/theme-next/hexo-theme-next themes/next</span><br><span class="line"><span class="built_in">cp</span> themes/next/_config.yml _config.next.yml</span><br><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
+
+<h3 id="2-把-about-和-categories-写了，-搞个local-search"><a href="#2-把-about-和-categories-写了，-搞个local-search" class="headerlink" title="2. 把 about 和 categories 写了， 搞个local search"></a>2. 把 about 和 categories 写了， 搞个local search</h3><p>加上<code>type</code>字段就行。见文档。加的配置里面的 local search 搜索，不知道有没有用。</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># _config.yml</span></span><br><span class="line"><span class="comment"># Search</span></span><br><span class="line"><span class="attr">search:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">search.xml</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">post</span></span><br><span class="line">  <span class="attr">content:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">format:</span> <span class="string">html</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="3-Git-Action-一把梭"><a href="#3-Git-Action-一把梭" class="headerlink" title="3. Git Action 一把梭"></a>3. Git Action 一把梭</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git init</span><br><span class="line">git remote add origin ***</span><br><span class="line">git pull origin master</span><br><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">&quot;init&quot;</span></span><br><span class="line">git push origin master</span><br></pre></td></tr></table></figure>
+
+<p>至于Github Action 的配置文件，直接去Marketplace里面找，然后改一下就行了。我用的是 <a href="https://github.com/marketplace/actions/hexo-action">这个</a>，好了，<code>hexo s</code> 里面一切正常，可以用。但是 Github Page 打不开，直接404， Repo里面所有的 <code>html</code> 文件都是 0 字节是搞什么鬼。查了半天，发现是主题的安装方法导致的。主题的<a href="https://theme-next.js.org/docs/getting-started/installation.html">文档</a>说有两种推荐的安装方法，要么是</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-theme-next --save</span><br></pre></td></tr></table></figure>
+<p>要么是</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/theme-next/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
+<p>这两种。我要改字体，并且还要结合 Github Action，那自然第一种就不能用了，否则我还得在Github Action环境里面的<code>node_modules</code>里面改。但是你第二种直接 <code>git clone</code> 然后就在一个 git项目里面套了另一个，<code>theme/next</code> 里面的东西都加不进去。查了下Github Action的输出，是layout报错，提示各种找不到layout。最后的解决办法，还是直接下载仓库文件直接复制进去。然后就好了。可能可以用 git submodule 来解决我遇到的这个问题，但是我懒得继续研究了。</p>
+<p>上面的那个自动部署脚本，有一点老，发现node好像还是用的12，就搜了一下别人的，加上了部署node版本的步骤，但是最后部署不了。犯了两个错误，一个是typo，略去不表；另一个是，hexo deploy 说找不到 <code>type: git</code> 。好吧， 是忘了加 <code>hexo-deployer-git</code> 了。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
+<h3 id="4-其它"><a href="#4-其它" class="headerlink" title="4. 其它"></a>4. 其它</h3><p>Github Page里面 <code>Settings</code> &gt; <code>Pages</code> &gt; <code>Build and deployment</code> &gt; <code>Source</code>， 选 <code>Deploy from a branch</code>，被官方的误导了下。</p>
+<h3 id="5-结语"><a href="#5-结语" class="headerlink" title="5. 结语"></a>5. 结语</h3><p>希望别吃灰。不要老是浪费时间再配置工具上面。</p>
+<p>测试下图片 <img src="/2023/10/28/real-hello-world/nastuh-abootalebi-eHD8Y1Znfpk-unsplash.webp" alt="test"></p>
+]]></content>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>新常态</title>
+    <url>/2023/12/13/the-new-normal/</url>
+    <content><![CDATA[<img src="/2023/12/13/the-new-normal/kumamon-lying-on-the-ground.webp" alt="Image" style="height: auto; width: auto; max-height: 480px">
+
+<p>The boom &amp; bust cycles and the animal spirits.</p>
+<span id="more"></span>
+
+<p>土地财政无以为继，基建退潮。部分工厂无法满足盈亏平衡点生产水平。加之劳动参与率下滑，或释放不安定因素。</p>
+<p>一个系统维持熵的稳定性而不使其快速增长(更不用说熵减)，本身就必须消耗极大的能量。快速增长期的设备逐步进入故障或维护高峰期，叠加上无孔不入的 Gresham’s Law，无资金维护叠加无有能力的人维护，最终恐怕不好的新闻仍将频发于非报端。曾受益于土地财政的低价公共服务恐面临提费减质。</p>
+<p>截至2023年12月8日。CPI达到了1995年日本的水平。另外还有：阿里云及滴滴的宕机。东航机械故障及发动机故障(321调查仍然没有结论)。更不说之前齐齐哈尔的塌楼。</p>
+<p>如果在衰退期能保持社会治安，哪怕新生代都是宅男宅女，也是儒家秩序下的东亚余晖。(微博推拿熊语)</p>
+<p>在没有显著路径变更的情况下，押注路径依赖或许是最好的选择，没有什么“This time is different”。但在大转弯下判断哪些不转弯，需要enlightened，与是否educated无关。</p>
+<p>合成谬误是指，当所有人采取对自身正确的决策，反而致整体的情况变得更差。但这并不意味着你采取让整体情况变好的策略，是正确的选择。</p>
+<ul>
+<li>警惕故障高峰期的设备及设施。</li>
+<li>警惕公共安全</li>
+<li>警惕重建设轻运营的盈利模式。</li>
+<li>低风险偏好投资。</li>
+<li>低债务或低成本债务。</li>
+<li>“你幸福就好，细节不必向我交代。”</li>
+</ul>
+<p>企稳肯定会企稳，问题是什么时候企稳。还有企稳后的新常态，是什么样的新常态。在成为高收入国家一员的边缘，这是值得思考的问题。</p>
+<p>References:</p>
+<p><video width=540 height=960 controls><source src="/2023/12/13/the-new-normal/high-income-country-soon.mp4" type="video/mp4"> </video></p>
+<p><a href="https://view.inews.qq.com/k/20221104A08SCF00">1. 把实施扩大内需战略同深化供给侧结构性改革有机结合起来</a><br><a href="https://www.gov.cn/yaowen/liebiao/202312/content_6919834.htm">2. 中央经济工作会议</a><br><a href="https://english.www.gov.cn/news/202312/12/content_WS657860aec6d0868f4e8e21c2.html">2. Central Economic Work Conference</a><br><a href="https://www.gov.cn/yaowen/liebiao/202312/content_6919152.htm">3. 政治局会议</a></p>
+]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>随笔</tag>
+        <tag>思考</tag>
+      </tags>
+  </entry>
+</search>
