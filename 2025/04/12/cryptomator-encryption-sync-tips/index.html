@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <!-- -->
+  <link rel="stylesheet" href="https://npm.elemecdn.com/lxgw-wenkai-screen-webfont/style.css" media="print" onload="this.media='all'">
+  </style>
+  <!-- -->
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="https://fonts.loli.net/css?family=LXGW WenKai Screen:300,300italic,400,400italic,700,700italic|Fira Code:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":true,"lazyload":false,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="羊毛也是要薅一下的。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="将 Cryptomator 用于加密同步及其设置技巧">
+<meta property="og:url" content="http://example.com/2025/04/12/cryptomator-encryption-sync-tips/index.html">
+<meta property="og:site_name" content="Piksou&#39;s Blog">
+<meta property="og:description" content="羊毛也是要薅一下的。">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2025-04-12T09:57:56.000Z">
+<meta property="article:modified_time" content="2025-04-12T09:57:56.000Z">
+<meta property="article:author" content="Piksou">
+<meta property="article:tag" content="随笔">
+<meta property="article:tag" content="配置">
+<meta property="article:tag" content="Cryptomator">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://example.com/2025/04/12/cryptomator-encryption-sync-tips/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>将 Cryptomator 用于加密同步及其设置技巧 | Piksou's Blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">Piksou's Blog</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">Jot down some notes</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2025/04/12/cryptomator-encryption-sync-tips/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.webp">
+      <meta itemprop="name" content="Piksou">
+      <meta itemprop="description" content="Zen of the Void">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Piksou's Blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          将 Cryptomator 用于加密同步及其设置技巧
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2025-04-12 17:57:56" itemprop="dateCreated datePublished" datetime="2025-04-12T17:57:56+08:00">2025-04-12</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Notes/" itemprop="url" rel="index"><span itemprop="name">Notes</span></a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span><br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>1.2k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>4 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>羊毛也是要薅一下的。</p>
+<span id="more"></span>
+
+<p>鄙司用的是群晖NAS为大家提供文档存储服务。为了便利化出差和驻地的人，还提供了Synology Drive服务。空间大小也还不错。经测试，同步文件的速度基本在3M&#x2F;s左右。</p>
+<p>群晖的同步文件功能，应该是群晖NAS杀手锏应用。据说这个功能比其它NAS厂商做得都好。于是，我想办法能不能用来存储和同步一下我个人的东西。免得带着USB SSD跑来跑去。</p>
+<p>但是问题来了，众所周知，群晖的<strong>管理员</strong>，是可以看到用户在NAS里面存储的文件的。而且并不需要什么重置你的密码之类的操作，直接在File Station打开就可以看到。</p>
+<p>最简单的解决办法，当然是打包一个加密的压缩文件，然后加密文件名和文件内容，这样就可以同步了。</p>
+<p>少量文件一次性传输还好，对于多文件就麻烦了。这样一来相当于用另外一个不方便替代了以前带USB SSD的不方便。一来你每次还得手动加密解密，二来是如此则群晖Synology Drive最重要的增量同步功能没了，得不偿失。</p>
+<p>当然，我知道VeraCrypt这个软件。据说美国的FBI和NSA也拿它没办法。它的好处是它可以创建一个文件，然后将这个文件挂载为驱动器，你就在驱动器里面当作正常的文件夹用就可以。但是缺点仍然是很明显的，由于注重安全性，哪怕一个字节的变动，也会导致整个加密文件需要全部更新。3M&#x2F;s的小水管怕是受不了啊。</p>
+<p>最后选取的方案，是<a target="_blank" rel="noopener" href="https://cryptomator.org/">Cryptomator</a>。它是通过创建<strong>保险库</strong>功能，也是将一个文件夹挂载到本地，可以当作一个普通文件夹来用。但是，对于每个文件，都是<strong>单独</strong>加密的。这也意味着你修改了一个文件，不必整个加密文件夹全部重新同步。</p>
+<h2 id="文件名长度问题"><a href="#文件名长度问题" class="headerlink" title="文件名长度问题"></a>文件名长度问题</h2><p>说了那么多废话，终于到了重要的问题。</p>
+<p>在一次同步的过程中，我发现有些文件并没有被同步过来。理论上而言，群晖的Synology Drive是不知道我放的是什么东西，应该全部同步的。</p>
+<p>最终问题定位在了<strong>路径长度</strong>问题上。</p>
+<p>查阅群晖<a target="_blank" rel="noopener" href="https://kb.synology.com/DSM/help/SynologyDriveClient/synologydriveclient?version=7#syncbackuprules">文档</a>，发现有一条规则，导致了windows下同步会有问题：</p>
+<blockquote>
+<p>On Windows, Sync or Backup Tasks are not supported if:<br>The name or path of the folder&#x2F;file is longer than 247 characters</p>
+</blockquote>
+<p>中文版：</p>
+<blockquote>
+<p>在 Windows 上，同步或备份任务不支持：<br>文件夹&#x2F;文件的名称或路径超过 247 个字符</p>
+</blockquote>
+<p>Cryptomator在创建库的时候，有个<strong>启用专家设置</strong>，可以设置<strong>加密文件名的最大长度</strong>，默认是<strong>220</strong>。</p>
+<p>注意：这个是它真的<strong>加密后文件名的长度</strong>，不包含它为了组织目录，需要的额外路径。以下通过举例说明问题。</p>
+<p>一个可能的库路径如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">C:\Users\MyName\Documents\SynologyDrive\</span><br></pre></td></tr></table></figure>
+
+<p>注意到此路径占了40个字符。</p>
+<p>然后，一般而言，加密库库名，和下面的文件夹会映射到一个类似于这样的路径：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">VaultNameA\d\BZ\R4VZSS5PEF7TU3PMFIMON5GJRNBDWA\</span><br></pre></td></tr></table></figure>
+
+<p>注意这里又消耗了47个字符。</p>
+<p>接下来才是生成的文件名，类似：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">5TyvCyF255sRtfrIvaB83ucADQ==.c9r</span><br></pre></td></tr></table></figure>
+
+<p>注意，这里<strong>加密文件名的最大长度</strong>指的是这个文件的长度，在这里它占用了32个字符。</p>
+<p>我之前设置过一次最大路径长度，发现还是有文件无法同步。查找对应文件的群晖同步属性，才发现Cryptomator考虑的只是考虑最终文件名的长度，而不会是路径长度。也就是说，这个最大长度值还需要再换算一次才能得出。所以，假定我们要让群晖同步，这里应该设置的是247-40-47&#x3D;160个字符。</p>
+<p>当然，因为不同电脑上群晖同步文件夹路径不同，这个值还是最好设置得更小一点。Cryptomator的<a target="_blank" rel="noopener" href="https://docs.cryptomator.org/security/vault/#name-shortening">文档</a>有具体提到他们是怎么把文件名变短的。</p>
+<p>虽然我个人觉得，可能这样子每个文件单独加密，并不如VeraCrypt那么安全，估计FBI或者NSA还是有办法破解。但是，现在你的管理员同事肯定是无法看到你存了什么了。</p>
+<p>改天我把我的坚果云上的东西也这么加密下好了，亡羊补牢。</p>
+<h2 id="2025-08-22-补充"><a href="#2025-08-22-补充" class="headerlink" title="2025-08-22 补充"></a>2025-08-22 补充</h2><p>这个项目可以在Linux、MacOS、Windows下实现同样的文件级加密，无需GUI。也记录下。</p>
+<p><a target="_blank" rel="noopener" href="https://nuetzlich.net/gocryptfs/">gocryptfs</a></p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E9%9A%8F%E7%AC%94/" rel="tag"># 随笔</a>
+              <a href="/tags/%E9%85%8D%E7%BD%AE/" rel="tag"># 配置</a>
+              <a href="/tags/Cryptomator/" rel="tag"># Cryptomator</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2025/03/25/block-spam-sms-keywords/" rel="prev" title="垃圾短信过滤关键词汇总">
+      <i class="fa fa-chevron-left"></i> 垃圾短信过滤关键词汇总
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2025/04/22/python-docx-monkey-patching/" rel="next" title="python-docx monkey-patching 的正确姿势">
+      python-docx monkey-patching 的正确姿势 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%96%87%E4%BB%B6%E5%90%8D%E9%95%BF%E5%BA%A6%E9%97%AE%E9%A2%98"><span class="nav-number">1.</span> <span class="nav-text">文件名长度问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2025-08-22-%E8%A1%A5%E5%85%85"><span class="nav-number">2.</span> <span class="nav-text">2025-08-22 补充</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Piksou"
+      src="/images/avatar.webp">
+  <p class="site-author-name" itemprop="name">Piksou</p>
+  <div class="site-description" itemprop="description">Zen of the Void</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">23</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">17</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <!-- AddToAny BEGIN -->
+<!--         <span>
+        <div style="margin: 0 auto; text-align: center;" class="a2a_kit a2a_kit_size_16 a2a_default_style">
+        <a class="a2a_dd" target="_blank" rel="noopener" href="https://www.addtoany.com/share"></a>
+        <a class="a2a_button_facebook"></a>
+        <a class="a2a_button_x"></a>
+        <a class="a2a_button_wechat"></a>
+        <a class="a2a_button_telegram"></a>
+        </div>
+        </span>
+        <script>
+        var a2a_config = a2a_config || {};
+        a2a_config.locale = "zh-CN";
+        </script>
+        <script async src="https://static.addtoany.com/menu/page.js"></script> -->
+        <!-- AddToAny END -->
+        <!-- AddToAny BEGIN -->
+        <a class="a2a_dd" target="_blank" rel="noopener" href="https://www.addtoany.com/share">Share</a>
+        <script async src="https://static.addtoany.com/menu/page.js"></script>
+        <!-- AddToAny END -->
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2025</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Piksou</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+    <span title="站点总字数">135k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="站点阅读时长">8:12</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://pisces.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> 强力驱动
+  </div>
+
+        
+<div class="busuanzi-count">
+  <script data-pjax async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/animejs/3.1.0/anime.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/pjax/0.2.8/pjax.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/medium-zoom/1.0.8/medium-zoom.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/pangu/4.0.7/pangu.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/velocity/1.2.1/velocity.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/velocity/1.2.1/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+  <script>
+var pjax = new Pjax({
+  selectors: [
+    'head title',
+    '#page-configurations',
+    '.content-wrap',
+    '.post-toc-wrap',
+    '.languages',
+    '#pjax'
+  ],
+  switches: {
+    '.post-toc-wrap': Pjax.switches.innerHTML
+  },
+  analytics: false,
+  cacheBust: false,
+  scrollTo : !CONFIG.bookmark.enable
+});
+
+window.addEventListener('pjax:success', () => {
+  document.querySelectorAll('script[data-pjax], script#page-configurations, #pjax script').forEach(element => {
+    var code = element.text || element.textContent || element.innerHTML || '';
+    var parent = element.parentNode;
+    parent.removeChild(element);
+    var script = document.createElement('script');
+    if (element.id) {
+      script.id = element.id;
+    }
+    if (element.className) {
+      script.className = element.className;
+    }
+    if (element.type) {
+      script.type = element.type;
+    }
+    if (element.src) {
+      script.src = element.src;
+      // Force synchronous loading of peripheral JS.
+      script.async = false;
+    }
+    if (element.dataset.pjax !== undefined) {
+      script.dataset.pjax = '';
+    }
+    if (code !== '') {
+      script.appendChild(document.createTextNode(code));
+    }
+    parent.appendChild(script);
+  });
+  NexT.boot.refresh();
+  // Define Motion Sequence & Bootstrap Motion.
+  if (CONFIG.motion.enable) {
+    NexT.motion.integrator
+      .init()
+      .add(NexT.motion.middleWares.subMenu)
+      .add(NexT.motion.middleWares.postList)
+      .bootstrap();
+  }
+  NexT.utils.updateSidebarPosition();
+});
+</script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+<script data-pjax>
+if (document.querySelectorAll('pre.mermaid').length) {
+  NexT.utils.getScript('//cdnjs.cloudflare.com/ajax/libs/mermaid/8.4.8/mermaid.min.js', () => {
+    mermaid.initialize({
+      theme    : '[object Object]',
+      logLevel : 3,
+      flowchart: { curve     : 'linear' },
+      gantt    : { axisFormat: '%m/%d/%Y' },
+      sequence : { actorMargin: 50 }
+    });
+  }, window.mermaid);
+}
+</script>
+
+
+    <div id="pjax">
+  
+
+  
+
+    </div>
+</body>
+</html>
