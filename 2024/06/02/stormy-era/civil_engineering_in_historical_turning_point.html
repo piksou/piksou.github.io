@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.zinc.min.css">
+    <title>Reference | 历史转折中的土木工程</title>
+    <script>
+      function setTheme(theme) {
+        document.documentElement.setAttribute('data-theme', theme);
+        localStorage.setItem('theme', theme);
+      }
+
+      function toggleTheme() {
+        const currentTheme = document.documentElement.getAttribute('data-theme');
+        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        setTheme(newTheme);
+      }
+
+      window.addEventListener('DOMContentLoaded', (event) => {
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) {
+          setTheme(savedTheme);
+        } else {
+          const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+          setTheme(prefersDarkScheme ? 'dark' : 'light');
+        }
+
+        const themeSwitch = document.querySelector('input[name="opt-in"]');
+        themeSwitch.checked = document.documentElement.getAttribute('data-theme') === 'dark';
+
+        themeSwitch.addEventListener('change', toggleTheme);
+      });
+    </script>
+  </head>
+  <body>
+    <main class="container">
+      <nav>
+        
+        <ul>
+          <li><a href="https://mp.weixin.qq.com/s/mLYPB8quiPdACXYJWqX_hg" target="_blank" rel="noreferrer">原文链接</a></li>
+        </ul>
+        <!-- 
+        <ul>
+          <li><h1></h1></li>
+        </ul>
+        -->
+        <ul>
+          <li>
+            <input name="opt-in" type="checkbox" role="switch" />
+            Dark mode
+          </li>
+        </ul>
+      </nav>
+      <article>
+        <hgroup style="text-align: center">
+        <h2>历史转折中的土木工程</h2>
+        <blockquote>有人说，可以用三句话概括土木的历程：<br />
+        那可是同济的土木；<br />
+      同济的土木也是同济；<br />
+    同济的土木也是土木。</blockquote>
+        <p>
+          Author |  章子姨 <br />
+          Published by | 壹地产
+        </p>
+        </hgroup>
+        <p>前不久，高考志愿填报导师张雪峰老师在直播间里分享了一个好玩的事，现在很多学校的土木工程为了招生，把土木工程专业悄悄改成了:</p>
+        <p><strong>智能制造。</strong></p>
+        <p>这样做，是有前例的。</p>
+        <p>去年7月，广州大学公布了广东省的投档情况，一眼望去，都是570、580这样的高分。就连组内专业最低分，也和平均分没差太多。只有一个例外：</p>
+        <p><strong>规划建筑与土木工程组。</strong></p>
+        <p>这个组不仅专业平均分低于别的组将近20分，组内专业最低分更是拉出了100分的差距，只有453分。</p>
+        <p>大家都被这个分数惊呆了，这个分数，在广东省的排位是21万多。而物理类高考过本科线的人数有23.6万人。也就是说，453分上不了一个好的民办二本，但是可以去广大。</p>
+        <p>上周日，河南省教育考试院发布一则通知，高校录取之后还有学校招生名额空缺，再次征集志愿。补录的门槛是河南理科一本线，511分。</p>
+        <p>志愿名单里，三十多所高校的土木、建筑、规划类专业都未招满，包括建筑老八校之一的东南大学。</p>
+        <p>十年前，有考生曾经在清华和东南之间，选择了东南。因为他要学的是这里的王牌专业，建筑专业。</p>
+        <p>从张开济、吴良镛，再到孟建民、王澍，无论是有建筑界“诺贝尔奖”之称的普利兹克建筑奖，还是中国建筑学最高荣誉“梁思成建筑奖”，获奖者名单中，都能寻见东南校友的名字。</p>
+        <p>今年，东南大学建筑类第一次将文科生划入建筑类招生，高情商地说：</p>
+        <p><strong>给文科生创造更好的就业渠道。</strong></p>
+        <p>这周一，有媒体在社交平台发起一项投票，是否会让孩子报土木专业，截至第二天中午，投票的8000人里，选择不会的有近7000人。</p>
+        <p>网上，评论里，到处都是土木前辈们的劝退贴，他们说，学土木工程，品坎坷人生。</p>
+        <p>哈工大深圳校区土木工程的就业报告显示，23届本科毕业生，56%的学生都选择了继续升学。</p>
+        <p>而研究生的就业选择，排在前列的不是中建、中铁等建筑类企业，而是比亚迪、京东、美团、宝洁、华为、携程等互联网企业，紧接着是国家机关、各省选调以及市区的公务人员。</p>
+        <p>对口的建筑企业寥寥无几。</p>
+        <p>今年哈工大本校建筑学院的招生板上，上榜毕业去向的，也是腾讯、字节、华为、小米、比亚迪等互联网、新能源企业。</p>
+        <p>一位北理工珠海学院的老师告诉子姨，以往能招到130人的土木系在去年，只招到了13人。</p>
+        <p>然后，刚开学就转走了三分之一。</p>
+        <p>于是，土木系的培养模式也与时俱进。去年，同济推出了一种个性化人才培养模式，土木工程+。</p>
+        <p>土木工程的学生在2年通识教育和一年专业基础后，可以根据自己的兴趣爱好和专业发展选择其他专业辅修。比如，土木工程+数理是数理强化班，土木+力学是力学实验班...</p>
+        <p>同济大学的土木，也成了万金油。</p>
+        <p>有人说，可以用三句话概括土木的历程：</p>
+        <p><strong>那可是同济的土木；</strong></p>
+        <p><strong>同济的土木也是同济；</strong></p>
+        <p><strong>同济的土木也是土木。</strong></p>
+    </article>
+    </main>
+  </body>
+</html>
